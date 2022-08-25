@@ -17,11 +17,11 @@ int main(void) {
 	display_do_init();
 	
 	for(looper=0; looper<10; ++looper) {
-		display_write_string("<==   KickstartEmbedded   ==>");
+		display_write_string("<== WELCOME==>");
 		usleep(500000);
 		display_clear();
 
-		display_write_string("<==          Subscribe          ==>");
+		display_write_string("<==        GITHUB       ==>");
 		usleep(500000);
 		display_clear();
 
